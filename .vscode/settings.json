@@ -1,5 +1,5 @@
 {
-  "azureFunctions.deploySubpath": "numerical-integral-func",
+  "azureFunctions.deploySubpath": "numeric-integral-function-herman",
   "azureFunctions.scmDoBuildDuringDeployment": true,
   "azureFunctions.pythonVenv": ".venv",
   "azureFunctions.projectLanguage": "Python",
