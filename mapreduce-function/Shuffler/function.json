@@ -1,0 +1,9 @@
+{
+  "bindings": [
+    {
+      "name": "map_results",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ]
+}

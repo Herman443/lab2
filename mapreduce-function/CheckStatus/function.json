@@ -1,0 +1,22 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "route": "CheckStatus/{instanceId}",
+      "methods": ["get"]
+    },
+    {
+      "type": "orchestrationClient",
+      "direction": "in",
+      "name": "starter"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    }
+  ]
+}

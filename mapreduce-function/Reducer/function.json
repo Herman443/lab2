@@ -1,0 +1,9 @@
+{
+  "bindings": [
+    {
+      "name": "reduce_input",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ]
+}

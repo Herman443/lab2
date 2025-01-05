@@ -1,9 +1,10 @@
 {
-  "azureFunctions.deploySubpath": "numeric-integral-function-herman",
+  "azureFunctions.deploySubpath": "mapreduce-function",
   "azureFunctions.scmDoBuildDuringDeployment": true,
   "azureFunctions.pythonVenv": ".venv",
   "azureFunctions.projectLanguage": "Python",
   "azureFunctions.projectRuntime": "~4",
   "debug.internalConsoleOptions": "neverOpen",
-  "azureFunctions.projectLanguageModel": 2
+  "azureFunctions.projectLanguageModel": 2,
+  "azureFunctions.projectSubpath": "mapreduce-function"
 }
