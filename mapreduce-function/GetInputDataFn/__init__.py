@@ -2,7 +2,7 @@ from azure.storage.blob import BlobServiceClient
 
 
 def main(_) -> list:
-    connection_string = "string_goes_here"
+    connection_string = "secret_blob_string_goes_here"
     container_name = "input-data"
 
     blob_service_client = BlobServiceClient.from_connection_string(connection_string)
